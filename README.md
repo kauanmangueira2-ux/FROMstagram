@@ -1,14 +1,14 @@
-# 📸 Clone do Instagram com React
+# 📸 Instagram From/Origem
 
-Projeto desenvolvido em React com o objetivo de recriar a página principal do Instagram, reproduzindo sua estrutura visual e principais elementos da interface.
+Projeto desenvolvido em React como atividade prática de Front-End, consistindo na recriação da página principal do Instagram com uma temática inspirada no universo da série **From (Origem)**.
 
-A aplicação foi construída utilizando conceitos de componentização e organização de interface, buscando manter a aparência característica da rede social, incluindo feed de publicações, comentários e elementos de interação.
+A proposta foi além da simples reprodução da interface: todo o conteúdo do feed foi adaptado para representar personagens, acontecimentos e elementos do universo da série, criando uma experiência temática dentro da estrutura visual do Instagram.
 
 ---
 
 ## 🎯 Objetivo
 
-Desenvolver um clone da página inicial do Instagram utilizando React, aplicando conceitos fundamentais do desenvolvimento Front-End e da construção de interfaces modernas.
+Desenvolver um clone da página inicial do Instagram utilizando React, aplicando conceitos de componentização, organização de interface e estilização, enquanto explora uma proposta criativa baseada no universo de From/Origem.
 
 ---
 
@@ -25,20 +25,22 @@ Desenvolver um clone da página inicial do Instagram utilizando React, aplicando
 
 * Componentização
 * Props
-* Estruturação de interfaces
 * Organização de componentes
-* Estilização de páginas
-* Desenvolvimento Front-End com React
+* Estruturação de interfaces
+* Desenvolvimento Front-End
+* Estilização com CSS
+* Reutilização de componentes
 
 ---
 
 ## 📱 Funcionalidades
 
 * Feed de publicações
+* Perfis temáticos
 * Área de comentários
 * Botões de interação
-* Estrutura inspirada na página principal do Instagram
-* Interface desenvolvida com React
+* Interface inspirada no Instagram
+* Conteúdo baseado no universo de From/Origem
 
 ---
 
@@ -70,30 +72,5 @@ npm run dev
 
 ---
 
-## 📷 Resultado
 
-Adicione aqui capturas de tela do projeto:
 
-```md
-![Tela Inicial](./screenshots/home.png)
-```
-
----
-
-## 🔗 Repositório
-
-Adicione aqui o link do repositório GitHub:
-
-```txt
-https://github.com/seu-usuario/seu-repositorio
-```
-
----
-
-## 📖 Sobre o Projeto
-
-Este projeto foi desenvolvido como atividade prática para aprofundar os conhecimentos em React, componentização e construção de interfaces inspiradas em aplicações reais.
-
----
-
-⭐ Projeto desenvolvido por Kauan Almeida para fins de estudo e prática em React.
