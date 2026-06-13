@@ -1,0 +1,119 @@
+.menuLateral {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .menuLateral {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 280px;
+
+    background-color: var(--fundo);
+    z-index: 100;
+    padding: 20px 16px;
+  }
+
+  .logo {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 16px 12px 24px;
+  }
+
+  .iconeLogo {
+    color: var(--dourado);
+    width: 32px;
+    height: 32px;
+    filter: drop-shadow(0 0 4px rgba(201, 168, 76, 0.4));
+  }
+
+  .titulo {
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: -0.5px;
+    background: linear-gradient(135deg, var(--dourado), #e8d48b);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  .navegacao {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    flex: 1;
+  }
+
+  .itemMenu {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    padding: 14px 12px;
+    border-radius: 8px;
+    color: var(--textoPrimario);
+    font-size: 17px;
+    font-weight: 400;
+    transition: background-color 0.2s, color 0.2s;
+    width: 100%;
+    text-align: left;
+  }
+
+  .itemMenu:hover {
+    background-color: rgba(255, 255, 255, 0.05);
+    color: var(--dourado);
+  }
+
+  .itemAtivo {
+    font-weight: 600;
+    color: var(--dourado);
+  }
+
+  .textoItem {
+    font-size: 17px;
+  }
+
+  .containerNotificacao {
+    position: relative;
+  }
+
+  .containerPerfil {
+    position: relative;
+    margin-top: auto;
+  }
+
+  .menuPerfil {
+    position: absolute;
+    left: 0;
+    bottom: calc(100% + 8px);
+    background-color: var(--fundoCard);
+    border: 1px solid var(--borda);
+    border-radius: 12px;
+    padding: 8px 0;
+    width: 200px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.4);
+  }
+
+  .itemPerfil {
+    display: block;
+    width: 100%;
+    text-align: left;
+    padding: 10px 16px;
+    color: var(--textoPrimario);
+    font-size: 14px;
+    transition: background-color 0.15s;
+  }
+
+  .itemPerfil:hover {
+    background-color: rgba(255, 255, 255, 0.05);
+  }
+
+  .divisor {
+    border: none;
+    border-top: 1px solid var(--borda);
+    margin: 4px 0;
+  }
+}

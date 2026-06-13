@@ -1,0 +1,107 @@
+export const postagens = [
+  {
+    codigo: 1,
+    usuario: "Boyd Stevens",
+    apelido: "xerifeboyd",
+    avatar: "/imagens/boyd.jpg",
+    corAvatar: "#c9a84c",
+    simboloImagem: "",
+    corImagem: "url('/imagens/boyd-post.jpg') center/cover no-repeat",
+    legenda:
+      "Todo dia procuro uma saída. Um dia encontro. Enquanto isso, protejo cada alma nesta cidade. A noite chega, mas a esperança não se apaga.",
+    curtidas: 142,
+    comentarios: [
+      { usuario: "Tabitha", texto: "Você é a razão pela qual ainda temos esperança, xerife." },
+      { usuario: "Donna", texto: "Enquanto você estiver de guarda, eu durmo tranquila." },
+      { usuario: "Jade", texto: "Se encontrar essa saída, me avisa. Tentei 47 vezes." },
+    ],
+    timestamp: "Há 2 horas",
+  },
+  {
+    codigo: 2,
+    usuario: "Tabitha",
+    apelido: "tabithavisoes",
+    avatar: "/imagens/Tabitha.jpg",
+    corAvatar: "#8e44ad",
+    simboloImagem: "",
+    corImagem: "url('/imagens/Tabitha-post.jpg.jpg') center/cover no-repeat",
+    legenda:
+      "Os símbolos nas árvores... eles formam um padrão. Já vi isso antes. E se não for uma maldição? E se for um mapa?",
+    curtidas: 89,
+    comentarios: [
+      { usuario: "Victor", texto: "Você vê o que eles não veem. Cuidado." },
+      { usuario: "Boyd Stevens", texto: "Tabitha, preciso entender mais sobre esses símbolos." },
+    ],
+    timestamp: "Há 3 horas",
+  },
+  {
+    codigo: 3,
+    usuario: "Victor",
+    apelido: "vivedafloresta",
+    avatar: "/imagens/victor.jpg",
+    corAvatar: "#27ae60",
+    simboloImagem: "",
+    corImagem: "url('/imagens/victor-post.jpg.jpg') center/cover no-repeat",
+    legenda:
+      "Eles só saem quando as luzes se apagam. Mas eu conheço os segredos da floresta. Já sobrevivi mais tempo que todos.",
+    curtidas: 67,
+    comentarios: [
+      { usuario: "Sara", texto: "Victor... me ensina o que você sabe?" },
+      { usuario: "Jade", texto: "O que você viu naquelas cavernas?" },
+    ],
+    timestamp: "Há 5 horas",
+  },
+  {
+    codigo: 4,
+    usuario: "Jade",
+    apelido: "jadetalisma",
+    avatar: "/imagens/jade.jpg",
+    corAvatar: "#3498db",
+    simboloImagem: "",
+    corImagem: "url('/imagens/jade-post.jpg') center/cover no-repeat",
+    legenda:
+      "OS TALISMÃS FUNCIONAM! Descobri o padrão. Não é mágica, é matemática. Cada símbolo é uma variável numa equação. Estou perto de quebrar o código.",
+    curtidas: 234,
+    comentarios: [
+      { usuario: "Boyd Stevens", texto: "Explique isso direito, Jade." },
+      { usuario: "Donna", texto: "Se for verdade, isso muda tudo." },
+      { usuario: "Tabitha", texto: "Eu sabia! Os símbolos, a matemática... tudo se conecta!" },
+    ],
+    timestamp: "Há 1 hora",
+  },
+  {
+    codigo: 5,
+    usuario: "Sara",
+    apelido: "saravozes",
+    avatar: "/imagens/sara.jpg",
+    corAvatar: "#e74c3c",
+    simboloImagem: "",
+    corImagem: "url('/imagens/sara-post.jpg') center/cover no-repeat",
+    legenda:
+      "As vozes me disseram para escrever isto. 'O menino é a chave.' Não sei o que significa, mas sinto que estamos perto de algo grande.",
+    curtidas: 56,
+    comentarios: [
+      { usuario: "Victor", texto: "O menino... você quer dizer Ethan?" },
+      { usuario: "Jade", texto: "Pergunta pras vozes se elas sabem resolver equações." },
+      { usuario: "Tabitha", texto: "Sara, confie em mim. Suas vozes não estão erradas." },
+    ],
+    timestamp: "Há 4 horas",
+  },
+  {
+    codigo: 6,
+    usuario: "Donna",
+    apelido: "donalider",
+    avatar: "/imagens/dona.jpg",
+    corAvatar: "#e67e22",
+    simboloImagem: "",
+    corImagem: "url('/imagens/dona-post.jpg') center/cover no-repeat",
+    legenda:
+      "Na Colônia, todos comem. Todos dormem. Todos sobrevivem. Não perdi uma alma essa semana. E não vou perder nenhuma essa noite.",
+    curtidas: 178,
+    comentarios: [
+      { usuario: "Boyd Stevens", texto: "Donna, você é o pilar que sustenta a Colônia." },
+      { usuario: "Sara", texto: "Obrigada por me acolher quando ninguém mais quis." },
+    ],
+    timestamp: "Há 6 horas",
+  },
+]

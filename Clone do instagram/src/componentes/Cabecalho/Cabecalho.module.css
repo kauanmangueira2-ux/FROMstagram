@@ -1,0 +1,65 @@
+.cabecalho {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 99;
+  background-color: rgba(10, 10, 10, 0.95);
+  backdrop-filter: blur(12px);
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .cabecalho {
+    display: block;
+  }
+}
+
+.container {
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.busca {
+  display: flex;
+  align-items: center;
+  width: 360px;
+  height: 40px;
+  background-color: var(--fundoInput);
+  border: 1px solid var(--borda);
+  border-radius: 8px;
+  padding: 0 12px;
+  gap: 8px;
+  transition: border-color 0.2s;
+}
+
+.busca:focus-within {
+  border-color: var(--dourado);
+}
+
+.iconeBusca {
+  color: var(--textoSecundario);
+  flex-shrink: 0;
+}
+
+.inputBusca {
+  flex: 1;
+  height: 100%;
+  background: none;
+  border: none;
+  color: var(--textoPrimario);
+  font-size: 15px;
+  outline: none;
+}
+
+.inputBusca::placeholder {
+  color: var(--textoSecundario);
+}
+
+@media (max-width: 767px) {
+  .cabecalho {
+    display: none;
+  }
+}

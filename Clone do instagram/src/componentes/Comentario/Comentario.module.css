@@ -1,0 +1,17 @@
+.comentario {
+  display: flex;
+  gap: 6px;
+  font-size: 13px;
+  line-height: 1.5;
+}
+
+.usuario {
+  font-weight: 600;
+  color: var(--textoPrimario);
+  white-space: nowrap;
+}
+
+.texto {
+  color: var(--textoPrimario);
+  word-break: break-word;
+}
